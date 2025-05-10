@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      bash: latest
   pre_build:
     commands:
       - echo "✅ Preparing to run check.sh"
